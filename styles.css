@@ -2,7 +2,7 @@
 .subsection {
   background-image: url("images/images/header-shapesmobile@2x.svg");
   background-size: contain;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100px;
   height: 900px;
@@ -16,11 +16,11 @@ ul {
   list-style: none;
 }
 .subsection ul {
-  display:flex;
-  justify-content:flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 .header-images ul {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 h1 {
@@ -56,7 +56,7 @@ p {
   width: 327px;
   height: 146px;
   top: 276px;
-  margin:0px 8px;
+  margin: 0px 8px;
   position: static;
   left: 24px;
   font-style: normal;
