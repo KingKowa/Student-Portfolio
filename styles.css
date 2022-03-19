@@ -27,7 +27,7 @@ ul {
 }
 
 h1 {
-  color: #172B4d;
+  color: #172b4d;
   font-family: "Poppins";
   font-weight: 700;
   font-size: 40px;
@@ -44,8 +44,8 @@ h1 {
 h3 {
   font-family: "Poppins";
   font-size: 16px;
-  color: #7F8Cff;
-  margin: 0px 8px;
+  color: #7f8Cff;
+  margin: 0 8px;
   font-weight: 500;
   line-height: 24px;
   width: 117px;
@@ -65,7 +65,5 @@ p {
   left: 24px;
   font-style: normal;
   line-height: 24px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;  
+   
 }
