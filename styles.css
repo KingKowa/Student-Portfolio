@@ -27,11 +27,11 @@ ul {
 }
 
 h1 {
-  color: #172B4D;
+  color: #172B4d;
   font-family: "Poppins";
   font-weight: 700;
   font-size: 40px;
-  margin: 12px 0px;
+  margin: 12px 0;
   height: 150px;
   top: 114px;
   left: 24px;
@@ -39,15 +39,12 @@ h1 {
   position: static;
   font-style: normal;
   line-height: 52px;
-  flex: none; 
-  order: 0;
-  flex-grow: 0;
 }
 
 h3 {
   font-family: "Poppins";
   font-size: 16px;
-  color: #7F8CFF;
+  color: #7F8Cff;
   margin: 0px 8px;
   font-weight: 500;
   line-height: 24px;
@@ -63,7 +60,7 @@ p {
   width: 327px;
   height: 146px;
   top: 276px;
-  margin: 0px 8px;
+  margin: 0 8px;
   position: static;
   left: 24px;
   font-style: normal;
