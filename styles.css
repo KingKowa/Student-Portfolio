@@ -57,7 +57,7 @@ h3 {
 }
 
 p {
-  display:flex;
+  display: flex;
   justify-content: center;
   font-family: Poppins, sans-serif;
   font-weight: 400;
