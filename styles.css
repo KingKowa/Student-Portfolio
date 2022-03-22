@@ -7,7 +7,7 @@
 
 .headline {
   display: flex;
-  align-items: row;
+  align-items: flex-start;
   flex-direction: column;
   background-image: url("images/images/header-shapesmobile@2x.svg");
   background-repeat: no-repeat;
@@ -21,7 +21,6 @@
   justify-content: flex-start;
   flex-direction: row;
   float: left;
-
 }
 
 h1 {
@@ -67,7 +66,6 @@ p {
   width: 327px;
   height: 146px;
   top: 276px;
-  margin: 0 8px;
   position: static;
   left: 24px;
   font-style: normal;
