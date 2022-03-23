@@ -1,76 +1,62 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-image: url("images/images/header-shapesmobile@2x.svg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.wrap-container{
+  margin: 0 24px;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
-  width: 375px;
+  margin-top: 58px;
 }
 
-.headline {
+.headline a {
+  margin-top: 58px;
+}
+
+.headline h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-image: url("images/images/header-shapesmobile@2x.svg");
-  background-repeat: no-repeat;
-  height: 718px;
-  width: 375px;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #172b4d;
 }
 
-.headline ul li {
+.info {
+  font-weight: 400;
+  font-style: normal;
+  color:#344563;
+}
+
+.headline h3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #7f8cff;
+  font-weight: 500;
+}
+
+.headline ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  float: left;
 }
 
-h1 {
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  font-family: Poppins, sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  height: 150px;
-  top: 114px;
-  left: 24px;
-  right: 24px;
-  width: 327px;
-  position: static;
-  font-style: normal;
-  line-height: 52px;
-}
-
-h3 {
-  display: flex;
-  flex: none;
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  color: #7f8cff;
-  margin: 0 8px;
-  font-weight: 500;
-  line-height: 24px;
-  width: 117px;
-  height: 24px;
-  position: static;
-  font-style: normal;
-  order: 0;
-}
-
-p {
-  display: flex;
-  justify-content: center;
-  font-family: Poppins, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #344563;
-  width: 327px;
-  height: 146px;
-  top: 276px;
-  position: static;
-  left: 24px;
-  font-style: normal;
-  line-height: 24px;
-  flex: none;
-  margin: 12px 0;
-  order: 0;
+.headline ul li{
+  display: inline-block;
+  padding-right: 20px;
 }
